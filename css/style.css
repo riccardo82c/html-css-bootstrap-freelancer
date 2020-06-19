@@ -1,9 +1,43 @@
-.row {
-    background-color: lightgrey;
-    
+.banner-fullwidth {
+    background-color: #1abc9c;
+
 }
 
-.row div {
-    height: 50px;
-    border: 1px solid black;
+.banner {
+    text-align: center;
+}
+
+
+
+.banner-title img {
+    height: 250px;
+}
+
+.banner-title {
+    color: white;
+
+}
+
+.banner-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.banner-title .white-line {
+    width: 100px;
+    display: inline-block;
+    border: 3px solid white;
+    margin-bottom: 12px;
+}
+
+.star {
+    object-position: center;
+}
+
+.star .fa-star {
+    font-size: 35px;
+    padding:0 10px;
 }
