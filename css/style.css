@@ -111,16 +111,14 @@ section .star {
     display: block;
 }
 
-.about {
 
-    font-size: 2rem;
-}
 
 .about h2, .about p{
     color: white;
 }
 
 .about p {
+    font-size: 20px;
     text-align: left;
 }
 
@@ -161,6 +159,40 @@ section .star {
     background-color: white;
 }
 
+section .contact {
+    background-color: white;
+    color: #2c3e50;
+
+
+    /* delete */
+    height: 800px;
+
+
+}
+
+.contact .row:first-child {
+    margin-bottom: 30px;
+}
+
+.contact form {
+    text-align: left;
+}
+
+.form-control {
+    font-size: 20px;
+    border: none;
+}
+
+.contact .btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    padding: 10px 20px;
+}
+
+.contact .btn-primary:hover {
+    background-color: #159a80;
+}
 @media screen and (min-width: 992px) {
     .portfolio .card {
         width: 350px;
