@@ -16,6 +16,7 @@ header {
 .banner-title {
     color: white;
 
+
 }
 
 .banner-title h1 {
@@ -23,6 +24,10 @@ header {
     font-size: 55px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.banner-title h3 {
+    margin-top: 20px;
 }
 
 
@@ -70,16 +75,22 @@ header {
     color: #2c3e50;
 }
 
-.portfolio img {
-    padding: 8%;
+.portfolio .row:first-child {
+    margin-bottom: 20px;
 }
 
-/* @media screen and (max-width: 768px) {
+.portfolio img {
+    width: 400px;
+    margin: 20px auto;
+    /* padding: 20px 10px; */
+    border-radius: 10px;
+}
 
-    .portfolio .img-responsive {
-        width: 400px;
 
 
+@media screen and (min-width: 992px) {
+
+    .portfolio img {
+        width: 100%;
     }
-
-} */
+}
