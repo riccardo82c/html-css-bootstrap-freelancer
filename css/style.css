@@ -1,6 +1,5 @@
 header {
     background-color: #1abc9c;
-
 }
 
 .banner {
@@ -15,12 +14,9 @@ header {
 
 .banner-title {
     color: white;
-
-
 }
 
 .banner-title h1 {
-
     font-size: 55px;
     font-weight: 600;
     text-transform: uppercase;
@@ -29,8 +25,6 @@ header {
 .banner-title h3 {
     margin-top: 20px;
 }
-
-
 
 .line {
     width: 150px;
@@ -45,14 +39,11 @@ header {
 
 .star .fa-star {
     font-size: 35px;
-    padding:0 10px;
+    padding: 0 10px;
 }
 
 .portfolio {
     background-color: white;
-
-    /* delete */
-    height: 800px;
 }
 
 .portfolio {
@@ -79,18 +70,45 @@ header {
     margin-bottom: 20px;
 }
 
-.portfolio img {
-    width: 400px;
+.portfolio .card {
+    display: inline-block;
+    width: 380px;
+    height: 280px;
     margin: 20px auto;
-    /* padding: 20px 10px; */
+    position: relative;
+}
+
+.portfolio .layover {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 187, 156, 0.78);
+    border-radius: 10px;
+    z-index: 500;
+    transition: all 0.3s;
+}
+
+.plus-simbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+
+.portfolio img {
+    height: 100%;
     border-radius: 10px;
 }
 
-
+.portfolio .card:hover .layover {
+    display: block;
+}
 
 @media screen and (min-width: 992px) {
-
-    .portfolio img {
-        width: 100%;
+    .portfolio .card {
+        width: 350px;
     }
 }
