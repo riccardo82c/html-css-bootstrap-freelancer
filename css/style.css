@@ -139,7 +139,7 @@ section .star {
 
 .portfolio .card {
     display: inline-block;
-    width: 380px;
+    width: 340px;
     height: 280px;
     margin: 20px auto;
     position: relative;
@@ -226,6 +226,10 @@ section .contact {
     color: #2c3e50;
 }
 
+.contact hr {
+    border: 1px solid lightgrey;
+}
+
 .contact .row:first-child {
     margin-bottom: 30px;
 }
@@ -261,6 +265,15 @@ section .contact {
     background-color: #159a80;
 }
 
+.contact .btn-primary {
+    font-size: 2rem;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.btn-container {
+    text-align: center;
+}
 
 section.footer {
     background-color: #2c3e50;
@@ -353,4 +366,9 @@ footer {
     .portfolio .card {
         width: 350px;
     }
+
+    .btn-container {
+        text-align: left;
+    }
+
 }
